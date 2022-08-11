@@ -38,7 +38,7 @@ def remot():
     
 def remotmicrosoft():
     remotmts = remotmic.get()
-    os.system('start cmdkey /generic:"%s" /user:"tjce-dom-01\\400469" /pass:"J_ms20=15*" ' %(remotmts))
+    os.system('start cmdkey /generic:"%s" /user:"tjce-dom-01\\" /pass:"" ' %(remotmts))
     time.sleep(2)
     os.system('start mstsc /v:%s' %(remotmts))
     time.sleep(2)
